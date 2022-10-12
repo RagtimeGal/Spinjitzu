@@ -1,0 +1,56 @@
+{
+	"parent": "item/handheld_rod",
+	"textures": {
+		"layer0": "item/carrot_on_a_stick"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 90400000
+			},
+			"model": "spin:item/spinjitzu_belt"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90400001
+			},
+			"model": "spin:item/fire_belt"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90400002
+			},
+			"model": "spin:item/ice_belt"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90400003
+			},
+			"model": "spin:item/lightning_belt"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90400004
+			},
+			"model": "spin:item/earth_belt"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90400005
+			},
+			"model": "spin:item/water_belt"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90400006
+			},
+			"model": "spin:item/green_belt"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 90400007
+			},
+			"model": "spin:item/golden_belt"
+		}
+	]
+}

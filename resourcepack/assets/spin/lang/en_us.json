@@ -1,0 +1,43 @@
+{
+  "item.minecraft.knowledge_book": "Click to Craft",
+  "pack.collaboration": "%s + %s",
+  "pack.spin": "Spinjitzu!",
+  "pack.spin.version": "[b0.1]",
+  "pack.spin.version.hover_event": "Click here to see changelog notes.",
+  "spin (MISSING RESOURCES)": "%s",
+  "The Spinjitzu Resource Pack is not installed.": "%s",
+
+  "chat.spin.reload": "[Spinjitzu!] Reloaded!",
+  "chat.spin.install.success": "Spinjitzu! has been successfully installed.",
+  "chat.spin.install.config": "[Config Menu]",
+  "chat.spin.install.config.hover_event": "Click here to open the config menu.",
+  "chat.spin.update": "Spinjitzu! has been successfully updated. However, you may still run into issues that must be manually fixed.",
+  "chat.spin.update.successful": "Any old items in your inventory have been updated",
+
+  "chat.spin.discord": "[Ragnos Discord]",
+  "chat.spin.discord.hover_event": "Click here to join my discord",
+  "chat.spin.wiki": "[Spinjitzu! WIKI]",
+  "chat.spin.wiki.hover_event": "Click here to open the Spinjitzu! Wiki",
+
+  "chat.spin.gamerules.title": "Spinjitzu! Gamerules",
+  "chat.spin.gamerules.false": "[Off]",
+  "chat.spin.gamerules.true": "[On]",
+  "chat.spin.gamerules.default_false": "Default: Off",
+  "chat.spin.gamerules.default_true": "Default: On",
+  "chat.spin.gamerules.doreloadmessage": "Announce reloads",
+  "chat.spin.gamerules.doreloadmessage.description": "Toggle whether the datapack should announce once a reload is complete.",
+
+  "actionbar.spin.nothing": "This belt has no ability",
+  "actionbar.spin.not_activated": "You must enter the state of Spinjitzu to use this belt",
+  "actionbar.spin.activated": "Spinjitzu activated!",
+
+  "item.spin.nothing": "",
+  "item.spin.spinjitzu_belt": "Spinjitzu Belt",
+  "item.spin.fire_belt": "Belt of Fire",
+  "item.spin.ice_belt": "Belt of Ice",
+  "item.spin.lightning_belt": "Belt of Lightning",
+  "item.spin.earth_belt": "Belt of Earth",
+  "item.spin.water_belt": "Belt of Water",
+  "item.spin.green_belt": "Belt of Plant",
+  "item.spin.golden_belt": "Golden Belt"
+}
