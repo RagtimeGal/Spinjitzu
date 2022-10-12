@@ -6,51 +6,51 @@
 	"overrides": [
 		{
 			"predicate": {
-				"custom_model_data": 90400000
+				"custom_model_data": 409000
 			},
 			"model": "spin:item/spinjitzu_belt"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 90400001
-			},
-			"model": "spin:item/fire_belt"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 90400002
-			},
-			"model": "spin:item/ice_belt"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 90400003
-			},
-			"model": "spin:item/lightning_belt"
-		},
-		{
-			"predicate": {
-				"custom_model_data": 90400004
+				"custom_model_data": 409001
 			},
 			"model": "spin:item/earth_belt"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 90400005
+				"custom_model_data": 409002
 			},
-			"model": "spin:item/water_belt"
+			"model": "spin:item/fire_belt"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 90400006
+				"custom_model_data": 409003
+			},
+			"model": "spin:item/golden_belt"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 409004
 			},
 			"model": "spin:item/green_belt"
 		},
 		{
 			"predicate": {
-				"custom_model_data": 90400007
+				"custom_model_data": 409005
 			},
-			"model": "spin:item/golden_belt"
+			"model": "spin:item/ice_belt"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 409006
+			},
+			"model": "spin:item/lightning_belt"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 409007
+			},
+			"model": "spin:item/water_belt"
 		}
 	]
 }

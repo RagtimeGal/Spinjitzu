@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "hurt_entity": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "nbt": "{Tags:[\"spin.lightning\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "spin:item/lightning_belt/hit"
+  },
+  "parent": "spin:technical/root"
+}
