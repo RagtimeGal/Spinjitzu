@@ -2,5 +2,6 @@ Beta 0.2
 
 + Add a tornado effect when practicing Spinjitzu
 + There are now active effects when practicing Spinjitzu
++ Added more splashes
 ~ Using a Powered Belt does not destory it now; instead, it turns into a Spinjitzu Belt
 ~ Using the Golden Belt on mobs standing on Path Blocks no longer replaces the block beneath the Path Block but replace the Path Block itself
