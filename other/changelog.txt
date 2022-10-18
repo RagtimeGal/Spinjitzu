@@ -1,3 +1,9 @@
+Beta 0.2.1
+
+~ Spinjitzu Belts can now be crafted
+
+##########
+
 Beta 0.2
 
 + Add a tornado effect when practicing Spinjitzu

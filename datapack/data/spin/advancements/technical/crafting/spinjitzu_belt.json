@@ -1,0 +1,15 @@
+{
+  "parent": "spin:technical/root",
+  "rewards": {
+    "function":"spin:recipes/spinjitzu_belt",
+    "loot": ["spin:items/spinjitzu_belt"]
+  },
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "spin:spinjitzu_belt"
+      }
+    }
+  }
+}
