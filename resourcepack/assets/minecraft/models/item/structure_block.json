@@ -8,43 +8,43 @@
 			"predicate": {
 				"custom_model_data": 409000
 			},
-			"model": "spin:item/earth_tornado"
+			"model": "spin:model/earth_tornado"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 409001
 			},
-			"model": "spin:item/fire_tornado"
+			"model": "spin:model/fire_tornado"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 409002
 			},
-			"model": "spin:item/golden_tornado"
+			"model": "spin:model/golden_tornado"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 409003
 			},
-			"model": "spin:item/green_tornado"
+			"model": "spin:model/green_tornado"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 409004
 			},
-			"model": "spin:item/ice_tornado"
+			"model": "spin:model/ice_tornado"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 409005
 			},
-			"model": "spin:item/lightning_tornado"
+			"model": "spin:model/lightning_tornado"
 		},
 		{
 			"predicate": {
 				"custom_model_data": 409006
 			},
-			"model": "spin:item/water_tornado"
+			"model": "spin:model/water_tornado"
 		}
 	]
 }

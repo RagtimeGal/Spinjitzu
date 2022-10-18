@@ -1,0 +1,6 @@
+{
+  "parent": "spin:model/spinjitzu_tornado",
+  "textures": {
+	"base": "spin:model/lightning_tornado"
+  }
+}
