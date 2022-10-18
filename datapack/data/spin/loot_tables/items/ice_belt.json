@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:409005,HideFlags:68,Unbreakable:1b,RepairCost:100,spin:{id:\"ice_belt\"}}"
+              "tag": "{CustomModelData:409005,HideFlags:68,Unbreakable:1b,RepairCost:100,spin:{id:\"ice_belt\",CustomModelData:409004}}"
             },
             {
               "function": "minecraft:set_name",

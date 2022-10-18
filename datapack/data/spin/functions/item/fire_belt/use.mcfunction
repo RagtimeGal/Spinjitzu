@@ -2,8 +2,11 @@
 # Runs when spinjitzu belt is used
 ####################
 
+# Actionbar
 title @s actionbar {"translate":"actionbar.spin.activated"}
-tag @s add spin.spinning
-tag @s add spin.fire
-execute if entity @s[gamemode=!creative] run item modify entity @s weapon.mainhand spin:reduce_count
+# Set Spin Timer to 0
 scoreboard players set @s spin.timer 0
+# Add Tag
+tag @s add spin.fire
+# Activate Spinning
+execute unless entity @s[nbt={Inventory:[{Slot:103b,id:"minecraft:structure_block",tag:{spin:{id:"tornado"}}}]}] run function spin:entity/player/spinning/activate

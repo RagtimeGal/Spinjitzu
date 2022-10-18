@@ -31,6 +31,8 @@
   "actionbar.spin.not_activated": "You must enter the state of Spinjitzu to use this belt",
   "actionbar.spin.activated": "Spinjitzu activated!",
 
+  "lore.spin.tornado": "Removing from helmet slot will prematurely end spinjitzu",
+
   "item.spin.nothing": "",
   "item.spin.spinjitzu_belt": "Spinjitzu Belt",
   "item.spin.fire_belt": "Belt of Fire",
@@ -39,5 +41,6 @@
   "item.spin.earth_belt": "Belt of Earth",
   "item.spin.water_belt": "Belt of Water",
   "item.spin.green_belt": "Belt of Energy",
-  "item.spin.golden_belt": "Golden Belt"
+  "item.spin.golden_belt": "Golden Belt",
+  "item.spin.tornado": "Spinjitzu Tornado"
 }

@@ -1,0 +1,50 @@
+{
+  "parent": "block/structure_block",
+  "textures": {
+    "layer0": "block/structure_block"
+  },
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 409000
+			},
+			"model": "spin:item/earth_tornado"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 409001
+			},
+			"model": "spin:item/fire_tornado"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 409002
+			},
+			"model": "spin:item/golden_tornado"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 409003
+			},
+			"model": "spin:item/green_tornado"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 409004
+			},
+			"model": "spin:item/ice_tornado"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 409005
+			},
+			"model": "spin:item/lightning_tornado"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 409006
+			},
+			"model": "spin:item/water_tornado"
+		}
+	]
+}
