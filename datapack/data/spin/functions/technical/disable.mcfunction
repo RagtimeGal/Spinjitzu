@@ -20,5 +20,5 @@ team remove smithed.prevent_aggression
 tellraw @a [{"translate":"pack.spin.uninstall","color":"red"}]
 
 ## Disable Datapack
-datapack disable "file/Terrapackb0.2Datapack.zip"
-datapack disable "file/Terrapackb0.2Datapack"
+datapack disable "file/Spinjitzuv1.0Datapack.zip"
+datapack disable "file/Spinjitzuv1.0Datapack"
