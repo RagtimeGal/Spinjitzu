@@ -1,3 +1,10 @@
+Beta 0.2.2
+
++ pack.png images are now added
+~ Fixed a bug relating to replacing your helmet while performing Spinjitzu
+
+##########
+
 Beta 0.2.1
 
 ~ Spinjitzu Belts can now be crafted

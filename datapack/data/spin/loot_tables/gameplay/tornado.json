@@ -42,7 +42,7 @@
               "function": "minecraft:set_lore",
               "lore": [
                 {
-                  "translate": "lore.spin.tornado",
+                  "translate": "item.spin.tornado.lore",
                   "color": "gray",
                   "italic": false
                 },
