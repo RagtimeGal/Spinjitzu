@@ -8,3 +8,6 @@ execute if entity @s[tag=spin.spinning] run scoreboard players add @s spin.timer
 # When timer is maxed
 execute if score @s spin.timer matches 15 run function spin:entity/player/spinning/deactivate
 execute if score @s spin.timer matches 15 run scoreboard players reset @s spin.timer
+
+
+### Zen State

@@ -30,7 +30,11 @@
   "actionbar.spin.belt.no_power": "You have not chosen a power yet",
   "actionbar.spin.spinjitzu.began": "Spinjitzu activated",
   "actionbar.spin.spinjitzu.ended": "Spinjitzu has ended",
-  "actionbar.spin.spinjitzu.cooldown": "You are too exhausted to use Spinjitzu right now. Wait %s seconds.",
+  "actionbar.spin.spinjitzu.cooldown": "You are too exhausted to use Spinjitzu right now. Wait %s seconds",
+  "actionbar.spin.zen.close": "A rush of peace ushers over you",
+  "actionbar.spin.zen.cant_enter": "The space you are in is too cramped to meditate",
+  "actionbar.spin.zen.enter": "You have entered the Zen state",
+  "actionbar.spin.zen.exit": "You have exited the Zen state",
 
   "item.spin.nothing": "",
   "item.spin.spinjitzu_belt": "Spinjitzu Belt",
@@ -48,7 +52,7 @@
   "item.spin.nunchucks_of_lightning.lore": "Increases your ability to control the element of Lightning",
   "item.spin.shurikens_of_ice": "Shurikens of Ice",
   "item.spin.shurikens_of_ice.lore": "Increases your ability to control the element of Ice",
-  "item.spin.scythe_of_quakes": "Sythe of Quakes",
+  "item.spin.scythe_of_quakes": "Scythe of Quakes",
   "item.spin.scythe_of_quakes.lore": "Increases your ability to control the element of Earth",
   "item.spin.golden_weapon.lore1": "One of the 4 golden weapons",
 

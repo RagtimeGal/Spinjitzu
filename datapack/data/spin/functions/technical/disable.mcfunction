@@ -11,7 +11,6 @@ scoreboard objectives remove spin.carrot_on_a_stick
 ## Kill Mobs
 execute at @e[tag=spin.block] run setblock ~ ~ ~ air
 tp @e[tag=spin.entity] ~ ~-666 ~
-tp @e[tag=spin.modified] ~ ~-666 ~
 
 ## Team
 team remove smithed.prevent_aggression
