@@ -1,0 +1,37 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{RepairCost:100,HideFlags:4,Unbreakable:1b,spin:{id:\"spinjitzu_belt\"},CustomModelData:409000}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "translate": "item.spin.spinjitzu_belt",
+                "italic": false
+              }
+            },
+            {
+              "function": "minecraft:set_lore",
+              "lore": [
+                {
+                  "translate": "pack.spin",
+                  "color": "#FF99FF",
+                  "italic": true
+                }
+              ]
+            }
+          ],
+          "name": "minecraft:carrot_on_a_stick"
+        }
+      ]
+    }
+  ]
+}

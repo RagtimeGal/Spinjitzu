@@ -27,10 +27,8 @@
   "actionbar.spin.spinjitzu.ended": "Spinjitzu has ended",
   "actionbar.spin.spinjitzu.cooldown": "You are too exhausted to use Spinjitzu right now. Wait %s seconds",
   "actionbar.spin.zen.close": "A rush of peace ushers over you",
-  "actionbar.spin.zen.cant_enter": "The space you are in is too cramped to meditate",
   "actionbar.spin.zen.enter": "You have entered the Zen state",
   "actionbar.spin.zen.exit": "You have exited the Zen state",
-  "actionbar.spin.zen.attacked": "Your Zen is abruptly interupted",
 
   "item.spin.nothing": "",
   "item.spin.spinjitzu_belt": "Spinjitzu Belt",
