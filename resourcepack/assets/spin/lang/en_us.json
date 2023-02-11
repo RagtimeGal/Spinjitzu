@@ -1,31 +1,26 @@
 {
   "item.minecraft.knowledge_book": "Click to Craft",
-  "pack.collaboration": "%s + %s",
-  "pack.spin": "Spinjitzu!",
-  "pack.spin.version": "[v1.0]",
-  "pack.spin.version.hover_event": "Click here to see changelog notes.",
+  "pack.spin.hover_event": "Click here to open the Spinjitzu Wiki",
+
+  "pack.spin": "Spinjitzu",
+
   "spin (MISSING RESOURCES)": "%s",
   "The Spinjitzu Resource Pack is not installed.": "%s",
 
-  "chat.spin.reload": "[Spinjitzu!] Reloaded!",
-  "chat.spin.install.success": "Spinjitzu! has been successfully installed.",
-  "chat.spin.install.config": "[Config Menu]",
-  "chat.spin.install.config.hover_event": "Click here to open the config menu.",
-  "chat.spin.update": "Spinjitzu! has been successfully updated. However, you may still run into issues that must be manually fixed.",
-  "chat.spin.update.successful": "Any old items in your inventory have been updated",
+  "commands.spin.reload.success": " Reloaded Spinjitzu",
+  "commands.spin.initiate": "%s is enabled.",
+  "commands.spin.wrong_version: You are using Spinjitzu on the incorrect Minecraft version. Please check the download.": "\nYou are using Spinjitzu on the incorrect Minecraft version. Please check the download.",
+  "commands.spin.initiate.wrong_version.title": "WRONG VERSION",
 
-  "chat.spin.discord": "[Ragnos Discord]",
-  "chat.spin.discord.hover_event": "Click here to join my discord",
-  "chat.spin.wiki": "[Spinjitzu! WIKI]",
-  "chat.spin.wiki.hover_event": "Click here to open the Spinjitzu! Wiki",
-
-  "chat.spin.gamerules.title": "Spinjitzu! Gamerules",
+  "chat.spin.discord": "[Spinjitzu Discord]",
+  "chat.spin.discord.hover_event": "Click here to join the Spinjitzu Discord",
+  "chat.spin.wiki": "[Spinjitzu WIKI]",
+  "chat.spin.wiki.hover_event": "Click here to open the Spinjitzu Wiki",
+  "chat.spin.gamerules.title": "Spinjitzu Gamerules",
   "chat.spin.gamerules.false": "[Off]",
   "chat.spin.gamerules.true": "[On]",
   "chat.spin.gamerules.default_false": "Default: Off",
   "chat.spin.gamerules.default_true": "Default: On",
-  "chat.spin.gamerules.doreloadmessage": "Announce reloads",
-  "chat.spin.gamerules.doreloadmessage.description": "Toggle whether the datapack should announce once a reload is complete.",
 
   "actionbar.spin.belt.no_power": "You have not chosen a power yet",
   "actionbar.spin.spinjitzu.began": "Spinjitzu activated",
@@ -35,14 +30,12 @@
   "actionbar.spin.zen.cant_enter": "The space you are in is too cramped to meditate",
   "actionbar.spin.zen.enter": "You have entered the Zen state",
   "actionbar.spin.zen.exit": "You have exited the Zen state",
+  "actionbar.spin.zen.attacked": "Your Zen is abruptly interupted",
 
   "item.spin.nothing": "",
   "item.spin.spinjitzu_belt": "Spinjitzu Belt",
-
   "item.spin.vengestone_fragment": "Vengestone Fragment",
-
-  "item.spin.tornado": "Spinjitzu Tornado",
-  "item.spin.tornado.lore": "Removal from the helmet slot will prematurely end Spinjitzu",
+  "item.spin.vengestone_fragment.lore": "It disrupts Zen",
 
   "item.spin.dragonbone_blade": "Dragonbone Blade",
   "item.spin.dragonbone_blade.lore": "While wielding this weapon you become immune to the Elements",
@@ -55,6 +48,9 @@
   "item.spin.scythe_of_quakes": "Scythe of Quakes",
   "item.spin.scythe_of_quakes.lore": "Increases your ability to control the element of Earth",
   "item.spin.golden_weapon.lore1": "One of the 4 golden weapons",
+
+  "item.spin.tornado": "Spinjitzu Tornado",
+  "item.spin.tornado.lore": "Removal from the helmet slot will prematurely end Spinjitzu",
 
   "item.spin.dragon_helmet": "Dragon Helmet",
   "item.spin.dragon_helmet.lore": "While all 4 pieces of the armor are equipped you may control Firstbourne",
@@ -73,6 +69,14 @@
   "item.spin.ninja_leggings.lore": "Increases the strength of your Elemental abilities",
   "item.spin.ninja_boots": "Ninja Boots",
   "item.spin.ninja_boots.lore": "Increases the strength of your Elemental abilities",
+
+  "death.attack.spin.generic": "%1$s was killed by %2$s using spinjitzu",
+  "death.attack.spin.fire": "%1$s was burnt to a crisp by %2$s using spinjitzu",
+  "death.attack.spin.lightning": "%1$s was electrified by %2$s using spinjitzu",
+  "death.attack.spin.earth": "%1$s was suffocated by %2$s using spinjitzu",
+  "death.attack.spin.ice": "%1$s was frozen by %2$s using spinjitzu",
+  "death.attack.spin.water": "%1$s was drowned by %2$s using spinjitzu",
+  "death.attack.spin.time": "%2$s rapidly aged %1$s using spinjitzu",
 
   "meditation.spin.essence.golden_power": "Golden Power",
   "meditation.spin.essence.golden_power.desc": "Elements of gold allow their users to create and manipulate energy and matter.",
@@ -108,32 +112,32 @@
   "meditation.spin.power.element.2": "Elements: %s and %s",
   "meditation.spin.power.skill": "Skill: %s",
   "meditation.spin.power.skill_cost": "Skill Cost: %s",
-# Fire
+
   "meditation.spin.power.blazing_trail": "Blazing Trail",
   "meditation.spin.power.blazing_trail.desc": "You leave behind a trail of fire wherever you go.",
   "meditation.spin.power.flame_punch": "Flame Punch",
   "meditation.spin.power.flame_punch.desc": "Attacking enemies sets them on fire.",
-# Ice
+
   "meditation.spin.power.frost_walker": "Frost Walker",
   "meditation.spin.power.frost_walker.desc": "You create a trail of ice around you allowing you to walk on water.",
   "meditation.spin.power.frost_punch": "Frost Punch",
   "meditation.spin.power.frost_punch.desc": "Attacking enemies freezes them in a block of ice.",
-# Earth
+
   "meditation.spin.power.earth_barrier": "Earth Barrier",
   "meditation.spin.power.earth_barrier.desc": "Crouching for a short period of time raises the ground around you.",
   "meditation.spin.power.earthen_punch": "Earthen Punch",
   "meditation.spin.power.earthen_punch.desc": "Attacking enemies causes the ground beneath their feet to shatter.",
-# Lightning
+
   "meditation.spin.power.thunderstorm": "Thunderstorm",
   "meditation.spin.power.thunderstorm.desc": "Entities around you are passively struck by lightning.",
   "meditation.spin.power.lightning_punch": "Lightning Punch",
   "meditation.spin.power.lightning_punch.desc": "Attacking enemies strikes them with lightning.",
-# Wind
+
   "meditation.spin.power.": "",
   "meditation.spin.power..desc": "",
   "meditation.spin.power.windy_punch": "Windy Punch",
   "meditation.spin.power.windy_punch.desc": "Attacking enemies launches them into the air.",
-# Time
+
   "meditation.spin.power.pause": "Pause",
   "meditation.spin.power.pause.desc": "Allows you to pause time around yourself for a short period",
   "meditation.spin.power.slow-mo": "Slow-Mo",

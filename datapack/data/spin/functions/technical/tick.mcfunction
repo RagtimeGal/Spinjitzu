@@ -1,8 +1,8 @@
 ####################
-# Global Tick
+# Runs every tick
 ####################
 
-## Entity Functions
+## Entity Ticking
 execute as @e[type=#spin:technical/tick,tag=spin.tick] at @s run function spin:entity/tick
 
 ## Player Tick

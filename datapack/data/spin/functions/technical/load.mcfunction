@@ -1,21 +1,16 @@
 ####################
-# Load
+# Runs when loaded
 ####################
 
-## Add Scoreboards
-scoreboard objectives add spin.config dummy
+## Create Scoreboards
 scoreboard objectives add spin.dummy dummy
-scoreboard objectives add spin.timer dummy
-scoreboard objectives add spin.carrot_on_a_stick minecraft.used:carrot_on_a_stick
+scoreboard objectives add spin.dummy2 dummy
+scoreboard objectives add spin.carrotstick minecraft.used:minecraft.carrot_on_a_stick
 
-## Schedule
-schedule function spin:technical/second_clock/main 1s replace
+## Trigger
+scoreboard objectives add spin.wiki trigger
+scoreboard objectives add spin.discord trigger
 
-## Set Config
-execute unless score version spin.config matches 1 run function spin:technical/update
-scoreboard players set version spin.config 1
-
-## Send Chat Messages
-execute if score IsInstalled spin.config matches 1 if score doReloadMessage spin.config matches 1 run function spin:technical/reload_message
-execute unless score IsInstalled spin.config matches 1 run function spin:technical/default_config
-execute unless score IsInstalled spin.config matches 1 run function spin:technical/install_message
+## Run on Load
+tellraw @a[predicate=spin:entity/debug_player] [{"translate":"debug.prefix","color":"yellow","bold":true},{"translate":"commands.spin.reload.success","color":"white","bold":false}]
+execute unless score #server_version spin.dummy matches 200 run function spin:technical/initiate

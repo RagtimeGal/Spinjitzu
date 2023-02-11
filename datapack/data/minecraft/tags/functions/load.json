@@ -1,3 +1,7 @@
 {
-		"values":["spin:technical/load"]
-	}
+	"values": [
+	  "spin:technical/load",
+	  "spin:technical/second_clock/main"
+	]
+  }
+  

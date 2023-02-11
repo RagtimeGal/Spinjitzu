@@ -1,11 +1,10 @@
 ####################
-# Second Clock
+# Repeats every second
 ####################
 
-## Run as entities
-execute as @e[type=#spin:technical/second_clock] at @s run function spin:technical/second_clock/as_entity
+## Entity Commands
 
-## Player Tick
+## Player Commands
 execute as @a at @s run function spin:entity/player/second_clock
 
 ## Reschedule

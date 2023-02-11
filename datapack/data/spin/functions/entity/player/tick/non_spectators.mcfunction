@@ -1,6 +1,3 @@
 ####################
-# Commands to run for players not in spectator mode
+# Runs every tick for all players who aren't in spectator
 ####################
-
-## Commands for holding items
-execute if entity @s[predicate=spin:entity/holding/anything] run function spin:entity/player/tick/holding_item
