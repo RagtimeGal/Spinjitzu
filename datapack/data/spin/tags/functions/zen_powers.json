@@ -1,5 +1,6 @@
 {
     "values": [
+      "spin:entity/player/zen_state/controller",
       "spin:entity/player/zen_state/powers/blazing_trail"
     ]
   }

@@ -13,4 +13,4 @@ scoreboard objectives add spin.discord trigger
 
 ## Run on Load
 tellraw @a[predicate=spin:entity/debug_player] [{"translate":"debug.prefix","color":"yellow","bold":true},{"translate":"commands.spin.reload.success","color":"white","bold":false}]
-execute unless score #server_version spin.dummy matches 200 run function spin:technical/initiate
+execute unless score #server_version spin.dummy matches 100 run function spin:technical/initiate
